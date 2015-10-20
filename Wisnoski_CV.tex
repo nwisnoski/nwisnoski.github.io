@@ -1,171 +1,182 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
+% Medium Length Professional CV
 % LaTeX Template
-% Version 1.11 (19/6/14)
+% Version 2.0 (8/5/13)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% Trey Hunner (http://www.treyhunner.com/)
 %
 % Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
-% used for structuring the document.
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass{resume} % Use the custom resume.cls style
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\pagestyle{fancy}
+\newdateformat{mydate}{\THEMONTH/\THEYEAR}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\mydate\today}
+\cfoot{\thepage}
 
-%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
-\usepackage[scale=0.75]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
 
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\firstname{Nathan I.} % Your first name
-\familyname{Wisnoski} % Your last name
-
-% All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
-\address{1001 E. Third Street}{Bloomington, IN 47405}
-\mobile{(713) 823-5397}
-%\phone{() 111 1112}
-%\fax{(000) 111 1113}
-\email{wisnoski@indiana.edu}
-\homepage{nwisnoski.github.io}{nwisnoski.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{twitter: @nwisnoski}
-
-%----------------------------------------------------------------------------------------
+\name{\sc Nathan I. Wisnoski} % Your name
+\address{Department of Biology, Indiana University \\ 1001 E. Third Street, Bloomington, IN 47405} % Your address
+\address{(812) 856--7235 \\ wisnoski@indiana.edu} % Your phone number and email
 
 \begin{document}
 
-\makecvtitle % Print the CV title
-
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
-\section{Education}
+\begin{rSection}{Education}
 
-\cventry{2014--Present}{Ph.D. in Biology}{Indiana University}{Bloomington}{}{Evolution, Ecology, and Behavior\\
-Advisor: Jay T. Lennon\\
-Minor: Environmental Sciences}  % Arguments not required can be left empty
-\cventry{2009--2013}{B.S. in Biology}{The University of Texas}{Austin}{}{Ecology, Evolution, and Behavior\\
-Minor: Business, McCombs School of Business}
+{\bf Indiana University, Bloomington} \hfill {2014--present} \\
+Ph.D in Biology -- Evolution, Ecology, and Behavior \\
+Minor in Environmental Sciences
 
-%----------------------------------------------------------------------------------------
-%	Research EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+{\bf The University of Texas at Austin} \hfill {2009--2013} \\
+B.S. in Biology -- Ecology, Evolution, and Behavior \\
+Minor in Business, McCombs School of Business \smallskip \\
 
-\section{Research Experience}
+\end{rSection}
 
-\cventry{2014--Present}{Graduate Researcher}{Lennon Lab}{Indiana University}{}{}
+%-------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
 
-\cventry{2014}{Field/Lab Technician}{Hawkes Lab}{University of Texas}{}{}
+\begin{rSection}{Research Experience}
 
-\cventry{2010--2013}{Undergraduate Researcher}{Leibold Lab}{University of Texas}{}{}
+% At Indiana University
 
+\begin{rSubsection}{Graduate Research Assistant}{August 2014 -- Present}{Indiana University}{Bloomington, IN}
+\item Lennon Lab: Microbial Ecology and Evolution
+\end{rSubsection}
 
-%----------------------------------------------------------------------------------------
-%	Research Interests SECTION
-%----------------------------------------------------------------------------------------
+\begin{rSubsection}{Field/Lab Technician}{Spring 2014}{University of Texas}{Austin, TX}
+\item Hawkes Lab: Microbial Ecology and Biogeochemistry
+\end{rSubsection}
 
-\section{Research Interests}
+\begin{rSubsection}{Undergraduate Researcher}{June 2012 -- February 2014}{University of Texas}{Austin, TX}
+\item Leibold Lab: Community and Evolutionary Ecology
+\end{rSubsection}
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\end{rSection}
 
-\cvlistitem{Community and metacommunity ecology}
-\cvlistitem{Microbial ecology of the hyporheic zone}
-\cvlistitem{Dendritic ecological networks}
-\cvlistitem{Microbial dormancy and seed banks}
+%-------------------------------------------------------------------------------
+%   POSTERS / PRESENTATIONS
+%-------------------------------------------------------------------------------
 
+\begin{rSection}{Posters and Presentations}
 
+\begin{Publication}{{\bf Wisnoski NI}, Ward AS, Lennon JT}{2015}{Bacterial metacommunity structure across a stream network}{LTER All Scientists Meeting, Estes Park, CO}
+\end{Publication}
 
-%----------------------------------------------------------------------------------------
-%	Presentation SECTION
-%----------------------------------------------------------------------------------------
+\begin{Publication}{\bf Wisnoski NI}{2015}{Using the metacommunity concept to synthesize biodiversity patterns across LTER sites}{Working group presenter and participant, LTER All Scientists Meeting, Estes Park, CO}
+\end{Publication}
 
-\section{Posters and Presentations}
+\end{rSection}
 
-\cvitem{2015}{\textbf{Wisnoski NI}, Ward AS, Lennon JT. \emph{Bacterial metacommunity structure across a stream network}. LTER All Scientists Meeting, Estes Park, CO.}
-\cvitem{2015}{\emph{Using the metacommunity concept to synthesize biodiversity patterns across LTER sites}, Working group participant and presenter. LTER All Scientists Meeting, Estes Park, CO.}
+%-------------------------------------------------------------------------------
+%   FUNDING/AWARDS
+%-------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-%	Publications SECTION
-%----------------------------------------------------------------------------------------
+\begin{rSection}{Funding}
 
-%\section{Publications}
+\begin{Grant}{Sustainability Research Development Grant}{\$5400}{2015}
+\end{Grant}
 
-%\cvitem{2015}{\textbf{Wisnoski NI}, Lennon JT. \emph{Book Review: Principles of Microbial Diversity by James W. Brown}. Quarterly Review of Biology (In Review).}
+\begin{Grant}{Departmental Research Recruitment Fellowship}{ }{2014}
+\end{Grant}
 
+\end{rSection}
 
+%-------------------------------------------------------------------------------
+%	Teaching SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Teaching}
 
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
+\begin{rSubsection}{Associate Instructor}{August 2014 -- Present}{Indiana University}{Bloomington, IN}
+\item Courses Taught: Introductory Biology Lab
+\end{rSubsection}
 
-\section{Awards}
+\begin{rSubsection}{Grader}{January 2014 -- May 2014}{University of Texas}{Austin, TX}
+\item Course: Microbial Ecology
+\end{rSubsection}
 
-\cvitem{2015}{Sustainability Research Development Grant (\emph{\$5400})}
-\cvitem{2014}{Departmental Research Recruitment Fellowship}
+\begin{rSubsection}{Undergraduate Teaching Associate}{January 2013 -- December 2013}{University of Texas}{Austin, TX}
+\item Courses Taught: Biostatistics
+\end{rSubsection}}
 
+\end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	TEACHING/SERVICE SECTION
-%----------------------------------------------------------------------------------------
+\newpage
+%-------------------------------------------------------------------------------
+%	Mentorship Service SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Mentorship and Service}
 
-\section{Service, Teaching, and Mentorship}
+\begin{rSubsection}{EcoLunch Co-Organizer}{August 2015 -- Present}{Indiana University}{Bloomington, IN}
+\item Redesigned and led student-run research and professional development seminar/discussion series for Ecology-focused labs at IU
+\end{rSubsection}
 
-\subsection{Service}
-\cvitem{2015--2016}{EcoLunch Co-Chair, Indiana University}
-\cvitem{2015}{Organizer, Metacommunity Reading Group, Indiana University}
-\cvitem{2014--2015}{EcoLunch Committee, Indiana University}
+\begin{rSubsection}{Undergraduate STEM Mentor}{Jan 2015 -- Present}{Indiana University}{Bloomington, IN}
+\item Undergraduate Mentee: Luke Pryke. Luke is investigating the implications of microbial dormancy in predator-prey interactions using the model organisms \emph{Bacillus subtilis} and \emph{Tetrahymena thermophila}.
+\end{rSubsection}
 
+\begin{rSubsection}{Metacommunity Discussion Group Leader}{Summer 2015}{Indiana University}{Bloomington, IN}
+\item Organized a reading group to discuss theory and applications of the metacommunity framework in ecology
+\end{rSubsection}
 
-\subsection{Teaching}
-\cvitem{Fall 2014}{Biology Lab, Indiana University. \emph{Associate Instructor.}}
-\cvitem{Spring 2014}{Microbial Ecology, University of Texas. \emph{Grader}}
-\cvitem{Fall 2013}{Biostatistics, University of Texas. \emph{Undergraduate Teaching Assistant}}
-\cvitem{Spring 2013}{Biostatistics, University of Texas. \emph{Undergraduate Teaching Assistant}}
+\begin{rSubsection}{High School STEM Mentor}{Summer 2015}{Indiana University}{Bloomington, IN}
+\item High School Mentee: Dakayla Calhoun. Through IU's Jim Holland Summer Scholars Program, Dakayla identified changes in resource utilization across a variety of bacterial strains after years of long-term starvation. GitHub repository for the project located at https://github.com/LennonLab/
+\end{rSubsection}
 
+\begin{rSubsection}{EcoLunch Committee}{August 2014 -- May 2015}{Indiana University}{Bloomington, IN}
+\item Organized student-run research and professional development seminar series
+\end{rSubsection}
 
-\subsection{Mentorship}
-\cvitem{2015--Present}{Luke Pryke, Indiana University. Luke is investigating the role of microbial dormancy in predator-prey interactions using the model organisms \emph{Bacillus subtilis} and \emph{Tetrahymena thermophila.}}
-\cvitem{Summer 2015}{Dakayla Calhoun, Jim Holland Summer Science Research Program. Dakayla identified changes in resource utilization across a variety of bacterial strains after years of long-term starvation. GitHub repository for the project located at \url{<https://github.com/LennonLab/SSRP_2015>}}
+\end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%	COMPUTATION SKILLS SECTION
+%-------------------------------------------------------------------------------
 
-\section{Computer Skills}
+\begin{rSection}{Computational Skills}
 
-\cvitem{Scripting}{\texttt{python}, \texttt{bash}}
-\cvitem{Analysis}{\textsf{R}, Mathematica, MATLAB}
-\cvitem{Productivity}{\LaTeX, markdown, \texttt{git}, Microsoft Office}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Scripting & {\tt python}, {\tt bash} \\
+Analysis & R, Mathematica, MATLAB \\
+Productivity & \LaTeX, markdown, {\tt git}/GitHub, Microsoft Office \\
+\end{tabular}
 
-%----------------------------------------------------------------------------------------
-%	Professional Society SECTION
-%----------------------------------------------------------------------------------------
+\end{rSection}
 
-\section{Professional Societies}
+%-------------------------------------------------------------------------------
+%	SOCIETY SECTION
+%-------------------------------------------------------------------------------
 
-\cvlistitem{Ecological Society of America (ESA)}
+\begin{rSection}{Professional Society Membership}
+
+Ecological Society of America (Student Section and Microbial Ecology Section)
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
 
 \end{document}
