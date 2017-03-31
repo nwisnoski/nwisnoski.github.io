@@ -1,0 +1,20 @@
+---
+title: "Research"
+---
+
+Broadly, my research uses a combination of observational, experimental, and modeling approaches to explore how dispersal and dormancy influence microbial community structure.
+
+## The role of dormancy in host-phage dynamics
+Bacteria in nature often encounter non-ideal growing conditions. Consequently, the majority of bacteria in nature may be in a dormant, or metabolically inactive, state. These dormant bacteria accumulate into a "seed bank" of metabolically inactive bacteria that are able to rejoin the active community when conditions become favorable again. If the environmental conditions vary in such a way that different taxa are favored at different times, the presence of the microbial seed bank may be vital for maintaining high levels of bacterial diversity in a community. 
+
+But it remains unclear how the presence of a dormant seed bank influences the trophic relationships in a food web. Using a combination of models and microcosm experiments, I am investigating how dormancy influences the ecological and evolutionary dynamics of bacterial hosts and bacteriophages. 
+
+## Metacommunity structure in stream networks
+Ecological communities do not occur in isolation, but rather, they are connected by the dispersal of potentially interacting species to form a metacommunity. Metacommunity ecology has greatly expanded our understanding of the importance of dispersal for structuring the distribution and abundances of species. Recent applications of the metacommunity perspective to streams networks have demonstrated the utility of this approach, and have generated a range of hypotheses about how the relative importance of local selective processes (e.g., competition and predation) and dispersal might vary across the stream network. For microbes, evidence seems to suggest that dispersal from terrestrial ecosystems is an important contributor to headwater diversity, but that local selection becomes increasingly more important for "weeding out" terrestrial bacteria as they drift downstream.
+
+However, much of this previous work has focused on either the benthic or planktonic communities, overlooking the connectivity between them. Using a combination of field observations and experimental manipulations, my research investigates the relative importance of local environmental conditions versus dispersal for benthic and planktonic bacterial diversity across the stream network. In addition, I am investigating whether dormancy plays a role in determining the distribution of bacteria across the stream network. This work takes place at the [H. J. Andrews Long Term Ecological Research](http://andrewsforest.oregonstate.edu/) site in Oregon, USA. 
+
+## Metacommunity stability across the LTER Network
+Interest in metacommunity ecology has increased substantially over the last decade, largely fueled by major advances in theory and by crucial micro-/mesocosm experiments. Testing metacommunity predictions in natural ecosystems has remained challenging because of the need to conduct large-scale field studies over long temporal scales (though a handful of key long-term field studies have been vital to the development of metacommunity ecology). One source of long-term ecological data is the LTER Network, whose datasets are often approaching 30-40 years in duration, accompanied by a suite of environmental data. 
+
+As part of the synthesis mission of the LTER Network Communications Office (NCO) at NCEAS, [our working group](https://www.nceas.ucsb.edu/projects/12749#) is analyzing metacommunity stability across the diverse organisms and ecosystems represented by the LTER Network. With this effort, we emphasize the dynamical aspect of metacommunities and test theoretical predictions, and will produce an R package for analyzing long-term metacommunity datasets.
