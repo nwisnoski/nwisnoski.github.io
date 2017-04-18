@@ -110,6 +110,7 @@
   \vspace{0.25em} % Some space after the list of bullet points
 }
 
+
 %-------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %-------------------------------------------------------------------------------
@@ -133,16 +134,45 @@
 %-------------------------------------------------------------------------------
 
 \newenvironment{Publication}[4]{
+
  {#1.} {#2.} {\em #3.} {#4.}
 }
 
 %-------------------------------------------------------------------------------
-%	Funding FORMATTING
+%	Presentation FORMATTING
 %-------------------------------------------------------------------------------
 
-\newenvironment{Grant}[3]{
+\newenvironment{Presentation}[5]{
+ {#1.} {#2.} {\em #3.} {#4.} {#5.}
+}
+
+%-------------------------------------------------------------------------------
+%	Grant FORMATTING
+%-------------------------------------------------------------------------------
+
+% Four args. 1: Agency, 2: Title, 3: PIs, 4: Amount, 5: Years
+\newenvironment{Grant}[5]{
+\hangpara{3em}{2}
+ {#1.} {\em #2.} {#3.} {#4.} {#5.}
+}
+
+%-------------------------------------------------------------------------------
+%	Award FORMATTING
+%-------------------------------------------------------------------------------
+
+\newenvironment{Award}[3]{
  {#1.} {\em #2} \hfill {#3}
 }
+
+%-------------------------------------------------------------------------------
+%	Teaching FORMATTING
+%-------------------------------------------------------------------------------
+
+% Args: 1: Role, 2: Course name, 3: Institution, 4: year
+\newenvironment{Course}[4]{
+ {\bf #1.} {#2.} {\em #3.} {#4.}
+}
+
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
