@@ -14,3 +14,5 @@ output_dir: "."
 output:
   html_document:
     theme: cosmo
+    include:
+      after_body: footer.html
