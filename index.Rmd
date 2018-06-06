@@ -2,10 +2,10 @@
 title: "Microbial diversity in space and time"
 ---
 
-Microbial communities are some of the most taxonomically, phylogenetically, and functionally diverse biological systems on Earth.
-Moreover, high microbial diversity often persists even in ecosystems exhibiting high spatial and temporal variability.
-Two common life history strategies for coping with spatial and temporal variability are, respectively, dispersal and dormancy.
-These processes, along with local niche-based factors (e.g., abiotic conditions and species interactions), ecological stochasticity, and speciation (e.g., historical biogeographic patterns), combine to influence the taxa that make up a microbial community.
+Microbial communities are some of the most taxonomically, phylogenetically, and functionally diverse biological systems on the planet.
+Furthermore, this high microbial diversity often persists even in ecosystems exhibiting high spatial and temporal variability.
+One explanation for their persistence is that microorganisms have evolved life history strategies to combat environmental variability.
+Two common life history strategies for coping with spatial and temporal variability are dispersal and dormancy, which may facilitate species coexistence and contribute to the maintenance of biodiversity across spatial scales.
 
 My [research](research.html) seeks to understand the relative importance of these ecological processes for maintaining such high diversity in dynamic ecosystems.
 
