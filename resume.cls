@@ -25,7 +25,7 @@
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
-
+\usepackage{hanging}
 \pagestyle{plain} % Suppress page numbers
 
 \widowpenalty=1000
@@ -110,6 +110,29 @@
   \vspace{0.25em} % Some space after the list of bullet points
 }
 
+%-------------------------------------------------------------------------------
+%	HangSECTION FORMATTING
+%-------------------------------------------------------------------------------
+
+% Defines the rhangSection environment for the large sections within the CV
+% Modified to use hanging indents from https://stackoverflow.com/a/3254474/7317745
+\newenvironment{rhangSection}[1]{ % 1 input argument - section name
+  %\sectionskip
+  \MakeUppercase{\bf #1} % Section title
+  \sectionlineskip
+  \hrule % Horizontal line
+  \begin{list}{}{ % List for each individual item in the section
+    \setlength{\leftmargin}{2.5em} % Margin within the section
+    \setlength{\listparindent}{-1em} %
+    \setlength{\itemindent}{-1em} % Hanging indent
+    \setlength{\parsep}{\parskip}%
+  }
+  \item[]
+  }{
+  \end{list}
+  \vspace{0.25em} % Some space after the list of bullet points
+}
+
 
 %-------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
@@ -132,6 +155,11 @@
 %-------------------------------------------------------------------------------
 %	PUBLICATION FORMATTING
 %-------------------------------------------------------------------------------
+
+\newenvironment{Prep}[4]{
+{#1.} {#2.} {\em #3.} {#4}
+
+}
 
 \newenvironment{Publication}[4]{
 
