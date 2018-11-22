@@ -6,6 +6,17 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
+      menu:
+        - text: "Dormancy in metacommunities"
+          href: dorm_metacom.html
+        - text: "Metacommunities in stream networks"
+          href: streams.html
+        - text: "Dispersal and dormancy in bacterioplankton communities"
+          href: plankton.html
+        - text: "LTER Metacommunities"
+          href: lter.html
+        - text: "Dormancy and host-phage dynamics"
+          href: phage.html
     - text: "About Me"
       href: about.html
     - text: "Photography"

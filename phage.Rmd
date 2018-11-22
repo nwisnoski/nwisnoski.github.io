@@ -1,0 +1,5 @@
+---
+title: "Dormancy and host-phage dynamics"
+---
+
+Bacteria in nature often encounter non-ideal growing conditions and persist in a dormant state. These dormant bacteria accumulate into a "seed bank" of metabolically inactive individuals that can rejoin the active community when conditions become favorable again. The microbial seed bank may be vital for maintaining high levels of bacterial diversity in a community, but it remains unclear how seed banks influence food web relationships and eco-evolutionary dynamics. With collaborators Daniel Schwartz, Jason Walsman, and Jay Lennon, we are using mathematical models and microcosm experiments to investigate how dormancy influences the ecological and evolutionary dynamics of bacterial hosts and bacteriophages.

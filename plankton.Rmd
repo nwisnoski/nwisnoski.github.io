@@ -1,0 +1,38 @@
+---
+title: "Dispersal and dormancy in bacterioplankton communities"
+---
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+</style>
+
+
+<div class="column-right">
+Bacterial communities in lakes and reservoirs are structured by a combination of local and regional factors. In the lake, species interactions and environmental heterogeneity allow different species to be favored in different microhabitats or at different times of the year if species show differential responses to the environment, potentially allowing species to coexist. Stabilizing coexistence may be likely in microbical communities due to the ability of many taxa to enter dormancy, which can buffer against suboptimal changes in the environment and modify the relative strength of inter and intraspecific competition. We found support for these hypotheses from a high-resolution time series of active and total (active + dormant) bacterial diversity along with a suite of environmental variables.
+
+Because lakes are open systems, however, they also receive inputs of resources, energy, and organisms from surrounding terrestrial landscapes. To determine whether the effects of terrestrial inputs are greater for metabolically active than total bacterial communities, we sampled along a terrestrial--aquatic transect and analyzed patterns of bacterial diversity. We found evidence that soils potentially support strong source-sink dynamics across the terrestrial-aquatic boundary, but that these effects are largely restricted to the total, not the active, lake bacterial community community. Moreover, we found that few of these immigrating taxa become abundant members of the active community. We also found evidence that these terrestrial contributions may alter lake ecosystem functions, suggesting that high dispersal of maladapted individuals could influence biodiversity--ecosystem function (BEF) relationships. 
+
+#### Relevant manuscripts (in prep):
+
+- Wisnoski, Nathan I. and Jay T. Lennon. The contribution of “seed banks” to bacterial community dynamics.
+
+- Wisnoski, Nathan I. Mario E. Muscarella, Megan L. Larsen, and Jay T. Lennon. Dormancy and dispersal across ecosystem boundaries.
+
+</div>
+
+<div class="column-left">
+```{r out.width='80%',fig.align='center',echo=FALSE}
+knitr::include_graphics("images/ul-active_pcoa.png")
+knitr::include_graphics("images/ul-03_similarity-to-soils.png")
+```
+
+</div>

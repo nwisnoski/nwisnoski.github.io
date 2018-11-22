@@ -1,0 +1,32 @@
+---
+title: "LTER Metacommunities"
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+</style>
+
+
+
+Testing metacommunity predictions in natural ecosystems has remained challenging because of the need to conduct large-scale field studies over long temporal scales (though a handful of key long-term field studies have been vital to the development of metacommunity ecology). One source of long-term ecological data is the LTER Network, whose datasets are often approaching 30-40 years in duration. As part of the synthesis mission of the LTER Network Communications Office (NCO) at NCEAS, [our working group](https://www.nceas.ucsb.edu/projects/12749#) is analyzing metacommunity stability across the LTER Network. 
+
+#### Relevant manuscripts (in prep):
+
+- Voelker et al. Novel insights to be gained from applying metacommunity theory to long-term biodiversity data
+
+- Lamy et al. The dual dimensions of metacommunity stability.
+
+- Metacommunity stability across the LTER Network.
+
+
+

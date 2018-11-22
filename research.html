@@ -90,6 +90,9 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
 }
@@ -180,8 +183,29 @@ $(document).ready(function () {
         <li>
   <a href="index.html">Home</a>
 </li>
-<li>
-  <a href="research.html">Research</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dorm_metacom.html">Dormancy in metacommunities</a>
+    </li>
+    <li>
+      <a href="streams.html">Metacommunities in stream networks</a>
+    </li>
+    <li>
+      <a href="plankton.html">Dispersal and dormancy in bacterioplankton communities</a>
+    </li>
+    <li>
+      <a href="lter.html">LTER Metacommunities</a>
+    </li>
+    <li>
+      <a href="phage.html">Dormancy and host-phage dynamics</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="about.html">About Me</a>
@@ -206,52 +230,86 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+</style>
 <p>Broadly, my research uses a combination of observational, experimental, and modeling approaches to explore how dispersal and dormancy influence community structure. Code for some of my projects can be found on my <a href="https://github.com/nwisnoski">GitHub</a> page.</p>
 <div id="dormancy-in-metacommunities" class="section level2">
 <h2>Dormancy in metacommunities</h2>
-<p>Metacommunity ecology has improved our understanding of how dispersal affects community structure and dynamics across spatial scales, but it has yet to adequately account for dormancy, a reversible state of reduced metabolic activity. Dormancy can influence metacommunities, most notably, by buffering against harsh environmental conditions and by modifying dispersal rates. Seed banks of long-lived dormant propagules can introduce historical controls on community structure that are decoupled from contemporary dispersal rates. With coauthors <a href="http://www.leiboldlab.com/">Mathew Leibold</a> and <a href="https://www.indiana.edu/~microbes/">Jay Lennon</a>, I developed a trait-based framework for predicting how dormancy might alter the local, regional, and historical factors that influence community assembly, structure, and dynamics in metacommunities.</p>
-<div id="relevant-manuscripts" class="section level4">
-<h4>Relevant manuscripts:</h4>
+<div class="column-left">
+<p><img src="images/Figure3_MetacomScenarios.jpg" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="column-right">
+<p>Metacommunity ecology has improved our understanding of how dispersal affects community structure and dynamics across spatial scales, but it has yet to adequately account for dormancy, a reversible state of reduced metabolic activity. Dormancy can influence metacommunities, most notably, by buffering against harsh environmental conditions and by modifying dispersal rates. Seed banks of long-lived dormant propagules can introduce historical controls on community structure that are decoupled from contemporary dispersal rates. With coauthors <a href="http://www.leiboldlab.com/">Mathew Leibold</a> and <a href="https://www.indiana.edu/~microbes/">Jay Lennon</a>, I developed a framework for predicting how dormancy might alter the local, regional, and historical factors that influence community assembly, structure, and dynamics in metacommunities. Our preprint presents a brief review of case studies from a range of ecosystems, results from simple simulation models, and an empirical data analysis from a metacommunity system.</p>
+<h4 id="relevant-manuscripts">Relevant manuscripts:</h4>
 <ul>
 <li>Wisnoski, Nathan I., Mathew A. Leibold, and Jay T. Lennon. (in review). Dormancy in metacommunities. Check out the <a href="https://osf.io/ujmzc/">preprint</a>.</li>
 </ul>
-<div class="figure">
-<img src="images/Figure3_MetacomScenarios.jpg" alt="Figure 3 from Wisnoski et al. (in review)" />
-<p class="caption">Figure 3 from Wisnoski et al. (in review)</p>
-</div>
 </div>
 </div>
 <div id="metacommunity-structure-in-stream-networks" class="section level2">
 <h2>Metacommunity structure in stream networks</h2>
+<div class="column-left">
 <p>Ecological communities do not occur in isolation, but rather, they are connected by the dispersal of potentially interacting species to form a metacommunity. The study of metacommunities in stream networks has demonstrated the usefulness of this perspective and have generated a range of hypotheses about how local and regional-scale processes vary in importance across the stream network. My research investigates the relative importance of local conditions (e.g., hydrological, chemical, or biotic variables), dispersal/connectivity, and dormancy for benthic and planktonic bacterial diversity across a 5th-order stream network at the <a href="http://andrewsforest.oregonstate.edu/">H. J. Andrews Experimental Forest</a>, a Long-Term Ecological Research (<a href="https://lternet.edu/">LTER</a>) site in Oregon, USA. This work is conducted in collaboration with <a href="http://www.indiana.edu/~hydro/">Adam Ward</a>.</p>
-<div id="relevant-manuscripts-in-prep" class="section level4">
-<h4>Relevant manuscripts (in prep):</h4>
+<h4 id="relevant-manuscripts-in-prep">Relevant manuscripts (in prep):</h4>
 <ul>
 <li>Wisnoski, Nathan I. and Jay T. Lennon. Habitat-specific community assembly processes in a dendritic metacommunity.</li>
 </ul>
 </div>
+<div class="column-right">
+<embed src="images/Figure2_hja-dbrda.pdf" width="80%" style="display: block; margin: auto;" type="application/pdf" />
+</div>
+<p>
+<br/>
+</p>
 </div>
 <div id="the-importance-of-dispersal-and-dormancy-for-lake-bacterioplankton-structure-dynamics-and-ecosystem-function" class="section level2">
 <h2>The importance of dispersal and dormancy for lake bacterioplankton structure, dynamics, and ecosystem function</h2>
+<div class="column-right">
 <p>Bacterial communities in lakes and reservoirs are structured by a combination of local and regional factors. In the lake, species interactions and environmental heterogeneity allow different species to be favored in different microhabitats or at different times of the year if species show differential responses to the environment, potentially allowing species to coexist. Stabilizing coexistence may be likely in microbical communities due to the ability of many taxa to enter dormancy, which can buffer against suboptimal changes in the environment and modify the relative strength of inter and intraspecific competition. We found support for these hypotheses from a high-resolution time series of active and total (active + dormant) bacterial diversity along with a suite of environmental variables.</p>
 <p>Because lakes are open systems, however, they also receive inputs of resources, energy, and organisms from surrounding terrestrial landscapes. To determine whether the effects of terrestrial inputs are greater for metabolically active than total bacterial communities, we sampled along a terrestrial–aquatic transect and analyzed patterns of bacterial diversity. We found evidence that soils potentially support strong source-sink dynamics across the terrestrial-aquatic boundary, but that these effects are largely restricted to the total, not the active, lake bacterial community community. Moreover, we found that few of these immigrating taxa become abundant members of the active community. We also found evidence that these terrestrial contributions may alter lake ecosystem functions, suggesting that high dispersal of maladapted individuals could influence biodiversity–ecosystem function (BEF) relationships.</p>
+</div>
 <div id="relevant-manuscripts-in-prep-1" class="section level4">
 <h4>Relevant manuscripts (in prep):</h4>
 <ul>
 <li><p>Wisnoski, Nathan I. and Jay T. Lennon. The contribution of “seed banks” to bacterial community dynamics.</p></li>
 <li><p>Wisnoski, Nathan I. Mario E. Muscarella, Megan L. Larsen, and Jay T. Lennon. Dormancy and dispersal across ecosystem boundaries.</p></li>
 </ul>
+<div class="column-left">
+<p><img src="images/ul-active_pcoa.png" width="80%" style="display: block; margin: auto;" /><img src="images/ul-03_similarity-to-soils.png" width="80%" style="display: block; margin: auto;" /></p>
+</div>
+<p>
+<br/>
+</p>
 </div>
 </div>
 <div id="metacommunities-across-the-lter-network" class="section level2">
 <h2>Metacommunities across the LTER Network</h2>
+<div class="column-left">
 <p>Testing metacommunity predictions in natural ecosystems has remained challenging because of the need to conduct large-scale field studies over long temporal scales (though a handful of key long-term field studies have been vital to the development of metacommunity ecology). One source of long-term ecological data is the LTER Network, whose datasets are often approaching 30-40 years in duration. As part of the synthesis mission of the LTER Network Communications Office (NCO) at NCEAS, <a href="https://www.nceas.ucsb.edu/projects/12749#">our working group</a> is analyzing metacommunity stability across the LTER Network.</p>
+</div>
 <div id="relevant-manuscripts-in-prep-2" class="section level4">
 <h4>Relevant manuscripts (in prep):</h4>
 <ul>
 <li><p>Voelker et al. Metacommunity ecology as a lens to interpret long-term biodiversity data.</p></li>
 <li><p>Lamy et al. The dual dimensions of metacommunity stability.</p></li>
 </ul>
+<div class="column-right">
+
+</div>
+<p>
+<br/>
+</p>
 </div>
 </div>
 <div id="the-role-of-dormancy-in-host-phage-dynamics" class="section level2">
