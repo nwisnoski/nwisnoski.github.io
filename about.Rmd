@@ -12,6 +12,6 @@ knitr::include_graphics("images/Oregon_fieldwork.jpg")
 
 Check out my research page to learn more about my ongoing projects.
 
-Additional interests of mine include playing guitar and listening to music (check out my [last.fm](https://www.last.fm/user/nawis1017)), reading (check out my [goodreads](https://www.goodreads.com/nawis)), hiking and nature photography (check out a small [gallery](images/photo_gallery/index.html)). 
+Additional interests of mine include playing guitar and listening to music, reading (add me on [goodreads](https://www.goodreads.com/nawis)), hiking, and nature photography. 
 
 

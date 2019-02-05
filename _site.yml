@@ -19,8 +19,8 @@ navbar:
           href: phage.html
     - text: "About Me"
       href: about.html
-    - text: "Photography"
-      href: "images/photo_gallery/index.html"
+    - text: "Publications"
+      href: publications.html
 output_dir: "."
 output:
   html_document:
