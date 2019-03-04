@@ -27,7 +27,7 @@
 \usepackage{ifthen} % Required for ifthenelse statements
 \usepackage{hanging}
 \pagestyle{plain} % Suppress page numbers
-
+\usepackage{times}
 \widowpenalty=1000
 \clubpenalty=1000
 
