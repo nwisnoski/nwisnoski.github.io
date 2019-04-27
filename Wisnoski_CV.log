@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 APR 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 APR 2019 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,33 +408,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--59
  []
 
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
-(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 116
+(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 122
 .
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 330--335
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 363.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 363.
  (./Wisnoski_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 363.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 363.
 Package rerunfilecheck Info: File `Wisnoski_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 6862 strings out of 492649
- 102033 string characters out of 6129622
- 223840 words of memory out of 5000000
- 10664 multiletter control sequences out of 15000+600000
+ 6864 strings out of 492649
+ 102048 string characters out of 6129622
+ 223838 words of memory out of 5000000
+ 10665 multiletter control sequences out of 15000+600000
  18961 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,43p,1013b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,43p,1013b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texliv
@@ -443,10 +443,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on Wisnoski_CV.pdf (4 pages, 84281 bytes).
+Output written on Wisnoski_CV.pdf (5 pages, 85338 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
