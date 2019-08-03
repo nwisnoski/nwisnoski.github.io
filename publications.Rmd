@@ -2,7 +2,7 @@
 title: "Publications"
 ---
 
-**Wisnoski, N.I.**, M.A. Leibold, and J.T. Lennon. (2019). [Dormancy in metacommunities](https://doi.org/10.1086/704168). The American Naturalist 194(2): 35-151.
+**Wisnoski, N.I.**, M.A. Leibold, and J.T. Lennon. (2019). [Dormancy in metacommunities](https://doi.org/10.1086/704168). The American Naturalist 194(2): 135-151.
 
 ### In review
 
@@ -28,4 +28,4 @@ Lamy T, **N.I. Wisnoski**, R. Andrade, M.C.N. Castorani, A. Compagnoni, N. Lany,
 
 
 ### Other
-**Wisnoski, N.I.** and J.T. Lennon. 2016. [Book Review: _Principles of Microbial Diversity_ by James W. Brown](https://doi.org/10.1086/685351). The Quarterly Review of Biology.
+**Wisnoski, N.I.** and J.T. Lennon. 2016. [Book Review: _Principles of Microbial Diversity_ by James W. Brown](https://doi.org/10.1086/685351). The Quarterly Review of Biology 91(1): 98-99.
