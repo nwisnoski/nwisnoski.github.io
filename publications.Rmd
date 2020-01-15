@@ -2,10 +2,10 @@
 title: "Publications"
 ---
 
-**Wisnoski, N.I.**, M.E. Muscarella, M.L. Larsen, A.L. Peralta, and J.T. Lennon. Metabolic insight into bacterial community assembly across ecosystem boundaries. Accepted at Ecology. [Preprint](https://doi.org/10.1101/758615)
+**Wisnoski, N.I.**, M.E. Muscarella, M.L. Larsen, A.L. Peralta, and J.T. Lennon. In press. [Metabolic insight into bacterial community assembly across ecosystem boundaries](https://doi.org/10.1002/ecy.2968). Ecology.
 
 
-Mueller, E.A., **N.I. Wisnoski**, A.L. Peralta, and J.T. Lennon. 2019. [Microbial rescue effects: how microbiomes can save hosts from extinction](https://doi.org/10.1111/1365-2435.13493). Functional Ecology.
+Mueller, E.A., **N.I. Wisnoski**, A.L. Peralta, and J.T. Lennon. In press. [Microbial rescue effects: how microbiomes can save hosts from extinction](https://doi.org/10.1111/1365-2435.13493). Functional Ecology.
 
 Ward, A.S., S.M. Wondzell, N.M. Schmadel, S. Herzog, J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. Derelle, J. Drummond, J.H. Fleckenstein, V. Garayburu-Caruso, E. Graham, D. Hannah, C.J. Harman, J. Hixson, J.L.A. Knapp, S. Krause, M.J. Kurz, J. Lewandowski, A. Li, E. Marti, M. Miller, A.M. Milner, K. Neil, L. Orsini, A.I. Packman, S. Plont, L. Renteria, K. Roche, T. Royer, C. Segura, J. Stegen, J. Toyoda, J. Wells, and **N.I. Wisnoski**. 2019. [Spatial and temporal variation in river corridor exchange across a 5th-order mountain stream network](https://doi.org/10.5194/hess-23-5199-2019). Hydrology and Earth System Sciences 23:5199-5225.
 

@@ -17,15 +17,14 @@ title: "Metacommunities in dendritic networks"
 
 
 <div class="column-left">
-Ecological communities do not occur in isolation, but rather, they are connected by the dispersal of potentially interacting species to form a metacommunity. The study of metacommunities in dendritic networks, such as streams, has demonstrated the usefulness of this perspective, generating a range of hypotheses about how local and regional-scale processes vary in importance across the stream network. My research investigates the relative importance of local conditions (e.g., hydrological, chemical, or biotic variables) and dispersal/connectivity for benthic and planktonic bacterial diversity across a 5th-order stream network at the [H. J. Andrews Experimental Forest](http://andrewsforest.oregonstate.edu/), a Long-Term Ecological Research ([LTER](https://lternet.edu/)) site in Oregon, USA. This work is conducted in collaboration with [Adam Ward](http://www.indiana.edu/~hydro/). 
-
+The study of metacommunities in dendritic networks, such as streams, has generated a range of hypotheses about how local and regional-scale processes vary in importance across the stream network. However, dispersal/connectivity also varies along the vertical dimension distinguishing benthic from planktonic habitats. I tested whether these vertical differences influenced the relative importance of community assembly mechanisms across spatial scales and network position in a 5th-order stream network at the [H. J. Andrews Experimental Forest](http://andrewsforest.oregonstate.edu/), a Long-Term Ecological Research ([LTER](https://lternet.edu/)) site in Oregon, USA. 
 
 #### Relevant manuscripts (in prep): 
-- Wisnoski, Nathan I. and Jay T. Lennon. Habitat-specific community assembly processes in a dendritic metacommunity.
+- Wisnoski, Nathan I. and Jay T. Lennon. Microbial community assembly in a dendritic metacommunity is habitat- and scale-dependent.
 </div>
 
 <div class="column-right">
 ```{r out.width='80%',fig.align='center',echo=FALSE}
-knitr::include_graphics("images/Figure2_hja-dbrda.png")
+knitr::include_graphics("images/RDA.png")
 ```
 </div>
