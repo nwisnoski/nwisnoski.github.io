@@ -17,7 +17,7 @@ Ward, A.S., J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. De
 
   
 ### In review
-
+**Wisnoski, N.I.** and J.T. Lennon. Microbial community assembly in a multi-layer dendritic metacommunity. bioRxiv: https://doi.org/10.1101/2020.01.31.929562.
 
 Voelker, N.M., P.L. Zarnetske, **N.I. Wisnoski**, J.D. Tonkin, C.M. Swan, S. Record, L. Marazzi, N. Lany, T. Lamy, A. Compagnoni, M.C.N. Castorani, R. Andrade, and E.R. Sokol. Novel insights to be gained from applying metacommunity theory to long-term biodiversity data.
 
@@ -25,7 +25,6 @@ Graham, E.B., C. Averill, B. Bond-Lamberty, J.E. Knelman, S. Krause, A.L. Peralt
 
   
 ### In preparation
-**Wisnoski, N.I.** and J.T. Lennon. Microbial community assembly in a multi-layer dendritic metacommunity. bioRxiv: https://doi.org/10.1101/2020.01.31.929562.
 
 **Wisnoski, N.I.** and J.T. Lennon. The contribution of "seed banks" to bacterial community dynamics.
 
