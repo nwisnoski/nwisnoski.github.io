@@ -2,21 +2,21 @@
 title: "Publications"
 ---
 
-**Wisnoski, N.I.**, M.E. Muscarella, M.L. Larsen, A.L. Peralta, and J.T. Lennon. In press. [Metabolic insight into bacterial community assembly across ecosystem boundaries](https://doi.org/10.1002/ecy.2968). Ecology.
+**Wisnoski, N.I.**, M.E. Muscarella, M.L. Larsen, A.L. Peralta, and J.T. Lennon. 2020. [Metabolic insight into bacterial community assembly across ecosystem boundaries](https://doi.org/10.1002/ecy.2968). Ecology 101(4):e02968.
 
 
-Mueller, E.A., **N.I. Wisnoski**, A.L. Peralta, and J.T. Lennon. In press. [Microbial rescue effects: how microbiomes can save hosts from extinction](https://doi.org/10.1111/1365-2435.13493). Functional Ecology.
+Mueller, E.A., **N.I. Wisnoski**, A.L. Peralta, and J.T. Lennon. 2020. [Microbial rescue effects: how microbiomes can save hosts from extinction](https://doi.org/10.1111/1365-2435.13493). Functional Ecology.
 
 Ward, A.S., S.M. Wondzell, N.M. Schmadel, S. Herzog, J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. Derelle, J. Drummond, J.H. Fleckenstein, V. Garayburu-Caruso, E. Graham, D. Hannah, C.J. Harman, J. Hixson, J.L.A. Knapp, S. Krause, M.J. Kurz, J. Lewandowski, A. Li, E. Marti, M. Miller, A.M. Milner, K. Neil, L. Orsini, A.I. Packman, S. Plont, L. Renteria, K. Roche, T. Royer, C. Segura, J. Stegen, J. Toyoda, J. Wells, and **N.I. Wisnoski**. 2019. [Spatial and temporal variation in river corridor exchange across a 5th-order mountain stream network](https://doi.org/10.5194/hess-23-5199-2019). Hydrology and Earth System Sciences 23:5199-5225.
 
-Ward, A.S., M.J. Kurz, N.M. Schmadel, J.L.A. Knapp, P.J. Blaen, C.J. Harman, J.D. Drummond, D.M. Hannah, S. Krause, A. Li, E. Marti, A. Milner, M. Miller, K. Neil, S. Plont, A.I. Packman, **N.I. Wisnoski**, S.M. Wondzezll, and J.P. Zarnetske. 2019. [Solute transport and transformation in an intermittent, headwater mountain stream with diurnal discharge fluctuations](https://doi.org/10.3390/w11112208). Water 11(11): 2208.
+Ward, A.S., M.J. Kurz, N.M. Schmadel, J.L.A. Knapp, P.J. Blaen, C.J. Harman, J.D. Drummond, D.M. Hannah, S. Krause, A. Li, E. Marti, A. Milner, M. Miller, K. Neil, S. Plont, A.I. Packman, **N.I. Wisnoski**, S.M. Wondzezll, and J.P. Zarnetske. 2019. [Solute transport and transformation in an intermittent, headwater mountain stream with diurnal discharge fluctuations](https://doi.org/10.3390/w11112208). Water 11(11):2208.
 
 Ward, A.S., J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. Derelle, J. Drummond, J.H. Fleckenstein, V. Garayburu-Caruso, E. Graham, D. Hannah, C.J. Harman, S. Herzog, J. Hixson, J.L.A. Knapp, S. Krause, M.J. Kurz, J. Lewandowski, A. Li, E. Marti, M.Miller, A.M. Milner, K. Neil, L. Orsini, A.I. Packman, S. Plont, L. Renteria, K. Roche, T. Royer, N.M. Schmadel, C. Segura, J. Stegen, J. Toyoda, J. Wells, **N.I. Wisnoski**, and S.M. Wondzell. 2019 [Co-located contemporaneous mapping of morphological, hydrological, chemical, and biological conditions in a 5th order mountain stream network, Oregon, USA](https://doi.org/10.5194/essd-11-1567-2019). Earth System Science Data 11:1567-1581.
 
-**Wisnoski, N.I.**, M.A. Leibold, and J.T. Lennon. (2019). [Dormancy in metacommunities](https://doi.org/10.1086/704168). The American Naturalist 194(2): 135-151.
+**Wisnoski, N.I.**, M.A. Leibold, and J.T. Lennon. (2019). [Dormancy in metacommunities](https://doi.org/10.1086/704168). The American Naturalist 194(2):135-151.
 
   
-### In review
+### In review/revision
 **Wisnoski, N.I.** and J.T. Lennon. Microbial community assembly in a multi-layer dendritic metacommunity. bioRxiv: https://doi.org/10.1101/2020.01.31.929562.
 
 Voelker, N.M., P.L. Zarnetske, **N.I. Wisnoski**, J.D. Tonkin, C.M. Swan, S. Record, L. Marazzi, N. Lany, T. Lamy, A. Compagnoni, M.C.N. Castorani, R. Andrade, and E.R. Sokol. Novel insights to be gained from applying metacommunity theory to long-term biodiversity data.
