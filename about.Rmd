@@ -3,8 +3,8 @@ title: "About Me"
 ---
 
 
-I'm a PhD candidate studying microbial ecology in the [Lennon Lab](http://www.indiana.edu/~microbes/) at [Indiana University](http://www.bio.indiana.edu/). 
-I am especially interested in how dormancy and dispersal influence ecological communities.
+I'm a Postdoctoral Researcher in the [Albeke](http://www.uwyo.edu/wygisc/our_research/ongoing_research/ecoinformatics_initiative.html) and [Shoemaker](https://laurenshoemaker.weebly.com/) labs at the [University of Wyoming](http://www.uwyo.edu/). I'm working on the [EPSCoR Microbial Ecology](http://www.uwyo.edu/epscor/microbial-ecology/index.html) project investigating spatial patterns in microbial diversity and community structure.
+I am especially interested in metacommunity ecology, in particular, how dormancy and dispersal influence communities. 
 
 ```{r out.width='50%',fig.align='center',echo=FALSE}
 knitr::include_graphics("images/Oregon_fieldwork.jpg")
