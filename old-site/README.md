@@ -1,2 +1,0 @@
-# nwisnoski.github.io
-website
